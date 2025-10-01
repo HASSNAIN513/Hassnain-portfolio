@@ -12,7 +12,7 @@ const Home = () => {
       </div>
 
       <div className=' flex justify-center gap-x-4 mt-5'>
-        <a className='bg-blue-500 text-white py-3 px-6  rounded font-medium transition overflow-hidden hover:-translate-y-2' href="#projects">View Projects</a>
+        <a className='bg-blue-500 text-white py-3 px-6  rounded font-medium transition overflow-hidden hover:-translate-y-2' href="#project">View Projects</a>
         <a className='border border-blue-500/50 text-blue-500 py-3 px-6 rounded font-medium transition-all duration-200 hover:bg-blue-500/10 hover:shadow-[0_0_30px_rgba(59,130,245,0.4)] hover:-translate-y-2' href="#contact">Contact Us</a>
       </div>
       </Revealonscroll>
