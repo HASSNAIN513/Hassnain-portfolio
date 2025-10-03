@@ -21,9 +21,9 @@ emailjs.sendForm(import.meta.env.VITE_SERVICE_ID,import.meta.env.VITE_TEMPLATE_I
 
     }
   return (
-    <section id="contact" className='min-h-screen flex items-center justify-center py-20'>
+    <section id="contact" className='min-h-screen  flex items-center justify-center py-20'>
         <Revealonscroll>
-     <div className='px-4 w-150'>
+     <div className='px-4 md:w-150 w-screen'>
         <h2 className='text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-center text-transparent '>Get in Touch</h2>
         <form ref={ref} onSubmit={handleSubmit} className='space-y-6'>
             <div className='relative'>

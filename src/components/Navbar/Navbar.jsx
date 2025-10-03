@@ -19,12 +19,14 @@ const Navbar = () => {
             {!open ? (
               <span className="material-symbols-outlined">menu</span>
             ) : (
-              <img className="invert w-7" src="/close.svg" />
+              <span class="material-symbols-outlined">
+&#10006;
+</span>
             )}
           </button>
 
           {open && (
-            <div className="  md:hidden left-1/2 -translate-x-1/2 duration-600 transition-trasform  absolute z-60   bg-[#0a0a0a]/70 flex flex-col min-h-screen  justify-center  items-center gap-8 text-gray-300/90 ">
+            <div className="  md:hidden min-w-screen left-1 -translate-x-1 duration-600 transition-trasform  absolute z-60   bg-[#0a0a0a]/70 flex flex-col min-h-screen  justify-center  items-center gap-8 text-gray-300/90 ">
               <a
                 className={`tet-gray-300 hover:text-white  text-2xl font-semibold`}
                 href="#home"
