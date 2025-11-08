@@ -80,7 +80,7 @@ const About = () => {
                 <h3 className="text-3xl font-bold mb-4"> 🏫 Education</h3>
                 <ul className="list-disc list-inside text-gray-300 space-y-2">
                     <li>
-                        <strong> B.S. in Computer Science </strong> - Arid University (2024-current)
+                        <strong> B.S. in Computer Science </strong> - BIMS university (2024-current)
                         
                     </li>
                     <li>
@@ -94,7 +94,7 @@ const About = () => {
                 <h3 className="text-3xl font-bold mb-4"> 💼 Work Experience </h3>
                 <div className="space-y-4 text-gray-300">
                     <div>
-                    <h4 className="font-semibold">Intern at Grain & Grit Design (2024-2025) </h4>
+                    <h4 className="font-semibold">Intern at Grain & Grit Design ( from May 2025 to September 2025 ) </h4>
                     <p>Developed and maintained web applications, delivering scalable, user-friendly solutions while collaborating with the team to ensure high-quality results</p>
                     </div>
                 

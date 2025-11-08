@@ -28,7 +28,7 @@ const Project = () => {
                 </div>
 
                 <div className='flex justify-between items-center'>
-                <a className='text-blue-400 hover:text-blue-300 transition-colors my-4' href=""> View Project →</a>
+                <a target='_blank' className='text-blue-400 hover:text-blue-300 transition-colors my-4' href="https://url-shortner-using-nextjs.vercel.app"> View Project →</a>
                 </div>
             </div>
              <div className='p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)'>
@@ -48,12 +48,12 @@ const Project = () => {
                 </div>
 
                 <div className='flex justify-between items-center'>
-                <a className='text-blue-400 hover:text-blue-300 transition-colors my-4' href=""> View Project →</a>
+                <a target='_blank' className='text-blue-400 hover:text-blue-300 transition-colors my-4' href="https://password-manager-frontend-phi-ten.vercel.app"> View Project →</a>
                 </div>
             </div>
              <div className='p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)'>
                 <h3 className='text-xl font-bold mb-2'>Todo App</h3>
-                <p className='text-gray-400 mb-4'>Developed a to-do app with task creation, editing, and deletion features, offering a clean and responsive interface.</p>
+                <p className='text-gray-400 mb-4'>Developed a basic to-do app with task creation, editing, and deletion features, offering a clean and responsive interface.</p>
                 <div  className='flex flex-wrap gap-2 mb-4'>
                     {["Node.js","React","TailwindCSS","MongoDB","Express.js"].map((item, index) => {
                   return (
@@ -68,14 +68,14 @@ const Project = () => {
                 </div>
 
                 <div className='flex justify-between items-center'>
-                <a className='text-blue-400 hover:text-blue-300 transition-colors my-4' href=""> View Project →</a>
+                <a target='_blank' className='text-blue-400 hover:text-blue-300 transition-colors my-4' href="https://hassnain513.github.io/Todo-app"> View Project →</a>
                 </div>
             </div>
              <div className='p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)'>
-                <h3 className='text-xl font-bold mb-2'>Linktree</h3>
-                <p className='text-gray-400 mb-4'>Created a Linktree-style app to manage and share multiple links with a customizable, responsive interface.</p>
+                <h3 className='text-xl font-bold mb-2'>Donation-Website</h3>
+                <p className='text-gray-400 mb-4'>A modern donation website built with Next.js and Stripe, allowing users to securely log in, make payments, and manage their donations through an intuitive dashboard. Users can update credentials, track contributions, and view payment history seamlessly.</p>
                 <div  className='flex flex-wrap gap-2 mb-4'>
-                    {["Next.js","TailwindCSS","MongoDB"].map((item, index) => {
+                    {["Next.js","TailwindCSS","MongoDB","NextAuth.js","Stripe"].map((item, index) => {
                   return (
                     <span
                       key={index}
@@ -88,7 +88,7 @@ const Project = () => {
                 </div>
 
                 <div className='flex justify-between items-center'>
-                <a className='text-blue-400 hover:text-blue-300 transition-colors my-4' href=""> View Project →</a>
+                <a className='text-blue-400 hover:text-blue-300 transition-colors my-4' target='_blank' href="https://donation-website-project.vercel.app"> View Project →</a>
                 </div>
             </div>
         </div>
